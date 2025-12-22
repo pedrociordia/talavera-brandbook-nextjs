@@ -425,8 +425,8 @@ export const navItems = [
   { label: 'Introduction', slideIndex: 0 },
   { label: 'Brand Essence', slideIndex: 1 },
   { label: 'Logo System', slideIndex: 3 },
-  { label: 'Color System', slideIndex: 6 },
   { label: 'Typography', slideIndex: 4 },
+  { label: 'Color System', slideIndex: 6 },
   { label: 'Imagery', slideIndex: 7 },
   { label: 'Digital Experience', slideIndex: 8 },
 ];
