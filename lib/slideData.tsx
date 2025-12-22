@@ -428,4 +428,5 @@ export const navItems = [
   { label: 'Color System', slideIndex: 6 },
   { label: 'Typography', slideIndex: 4 },
   { label: 'Imagery', slideIndex: 7 },
+  { label: 'Digital Experience', slideIndex: 8 },
 ];

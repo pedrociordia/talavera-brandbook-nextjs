@@ -569,6 +569,13 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid var(--dim-gray);
 }
 
+/* Force light text color on dark background variant */
+.logo-variant.dark-bg .logo-label,
+.logo-variant.dark-bg p,
+.logo-variant.dark-bg {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
 .logo-variant img {
   width: 100%;
   max-width: 300px;
