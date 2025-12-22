@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Header from './Header';
-import HeaderNav from './HeaderNav';
 import ScrollIndicator from './ScrollIndicator';
 import Slide from './Slide';
 import { slides } from '@/lib/slideData';
@@ -102,8 +101,11 @@ export default function SlidesContainer() {
 
   return (
     <>
-      <Header isLightTheme={currentTheme === 'light'} />
-      <HeaderNav currentSlide={currentSlide} onNavigate={navigateToSlide} />
+      <Header 
+        currentSlide={currentSlide}
+        onNavigate={navigateToSlide}
+        isLightTheme={currentTheme === 'light'} 
+      />
       <ScrollIndicator isVisible={showScrollIndicator && currentSlide === 0} />
       
       {/* Navigation Dots */}
