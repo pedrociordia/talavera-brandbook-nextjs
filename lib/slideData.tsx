@@ -91,11 +91,10 @@ export const slides: SlideData[] = [
         <h2 className="section-title">Logo System</h2>
         <div className="logo-showcase">
           <div className="logo-variant light-bg">
-            <img src="https://hoteltalavera.com/wp-content/uploads/2025/12/Logo-Hotel-Talavera-Gris-SVG.svg" alt="Logo Gris" />
+            <img src="https://hoteltalavera.com/wp-content/uploads/2025/07/Logo-Hotel-Talavera-Gris-PNG-e1766430526996.png" alt="Logo Gris" />
             <p className="logo-label">Versión Gris (fondos claros)</p>
             <div className="download-options">
-              <a href="https://hoteltalavera.com/wp-content/uploads/2025/12/Logo-Hotel-Talavera-Gris-SVG.svg" download className="download-btn">SVG</a>
-              <a href="https://hoteltalavera.com/wp-content/uploads/2025/12/Logo-Hotel-Talavera-Gris-PNG.png" download className="download-btn">PNG</a>
+              <a href="https://hoteltalavera.com/wp-content/uploads/2025/07/Logo-Hotel-Talavera-Gris-PNG-e1766430526996.png" download className="download-btn">PNG</a>
             </div>
           </div>
           <div className="logo-variant dark-bg">

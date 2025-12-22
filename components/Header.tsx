@@ -21,7 +21,7 @@ export default function Header({ currentSlide, onNavigate, isLightTheme }: Heade
         >
           <img 
             src={isLightTheme 
-              ? "https://hoteltalavera.com/wp-content/uploads/2025/12/Logo-Hotel-Talavera-Gris-SVG.svg"
+              ? "https://hoteltalavera.com/wp-content/uploads/2025/07/Logo-Hotel-Talavera-Gris-PNG-e1766430526996.png"
               : "https://hoteltalavera.com/wp-content/uploads/2025/12/Logo-Hotel-Talavera-Blanco-SVG.svg"
             }
             alt="Hotel Talavera" 
