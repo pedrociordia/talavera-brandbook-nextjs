@@ -1020,6 +1020,53 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ======================================
+   POWERED BY (global credit)
+   ====================================== */
+
+.powered-by {
+  position: fixed;
+  right: var(--space-md);
+  bottom: var(--space-xs);
+  z-index: 998;
+  font-family: var(--font-primary);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: var(--transition-smooth);
+}
+
+.powered-by--dark {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.powered-by--light {
+  color: rgba(28, 28, 28, 0.55);
+}
+
+.powered-by__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: var(--transition-smooth);
+}
+
+.powered-by--dark .powered-by__link:hover {
+  color: var(--white);
+}
+
+.powered-by--light .powered-by__link:hover {
+  color: var(--eerie-black);
+}
+
+.powered-by__link:focus-visible {
+  outline: 2px solid var(--imperial-red);
+  outline-offset: 2px;
+}
+
+/* ======================================
    RESPONSIVE
    ====================================== */
 
@@ -1049,6 +1096,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .slide-nav {
+    right: var(--space-sm);
+  }
+
+  .powered-by {
     right: var(--space-sm);
   }
   

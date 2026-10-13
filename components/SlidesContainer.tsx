@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Header from './Header';
 import ScrollIndicator from './ScrollIndicator';
+import PoweredBy from './PoweredBy';
 import Slide from './Slide';
 import { slides } from '@/lib/slideData';
 
@@ -133,6 +134,8 @@ export default function SlidesContainer() {
           </Slide>
         ))}
       </main>
+
+      <PoweredBy isLightTheme={currentTheme === 'light'} />
     </>
   );
 }
